@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://fatimaguilherme.com.br/">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <meta name="author" content="Fátima Guilherme">
-  <meta name="theme-color" content="#0F2742">
+  <meta name="theme-color" content="#1F6B45">
 
   <!-- Local SEO -->
   <meta name="geo.region" content="BR-SC">
@@ -40,7 +40,7 @@
   <script>document.documentElement.classList.add('js')</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=Figtree:wght@400;500;600;700&family=Great+Vibes&display=swap">
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <script type="application/ld+json">
@@ -54,7 +54,7 @@
         "alternateName": "Podologia BC Fátima",
         "description": "Consultório de podologia no Centro de Balneário Camboriú (SC). Tratamento de unha encravada, calos e calosidades, micose de unha com laserterapia, rachaduras no calcanhar, cuidado com pés de pessoas com diabetes e reflexologia podal.",
         "url": "https://fatimaguilherme.com.br/",
-        "image": "https://fatimaguilherme.com.br/assets/img/og-image.jpg",
+        "image": ["https://fatimaguilherme.com.br/assets/img/fatima-podologa-balneario-camboriu.jpg", "https://fatimaguilherme.com.br/assets/img/og-image.jpg"],
         "logo": "https://fatimaguilherme.com.br/assets/img/apple-touch-icon.png",
         "telephone": "+55-47-99963-8736",
         "medicalSpecialty": "Podiatric",
@@ -101,6 +101,7 @@
         "@id": "https://fatimaguilherme.com.br/#fatima",
         "name": "Fátima Guilherme",
         "jobTitle": "Podóloga",
+        "image": "https://fatimaguilherme.com.br/assets/img/fatima-podologa-balneario-camboriu.jpg",
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "UNIVALI - Universidade do Vale do Itajaí" },
         "birthPlace": { "@type": "Place", "name": "Maringá, PR" },
         "worksFor": { "@id": "https://fatimaguilherme.com.br/#negocio" },
@@ -145,6 +146,12 @@
         <circle cx="31" cy="12" r="2.8"/>
         <circle cx="35.5" cy="17.5" r="2.3"/>
       </symbol>
+      <symbol id="monograma" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="29.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+        <circle cx="32" cy="32" r="25" fill="none" stroke="#CC2A2F" stroke-width="1.4"/>
+        <text x="29" y="42" text-anchor="middle" font-family="Great Vibes, Segoe Script, cursive" font-size="27" fill="currentColor">FG</text>
+        <g fill="#CC2A2F" transform="translate(41 30) scale(.2) rotate(18 20 40)"><path d="M20 24c9 0 14 7 14 17 0 9-4 14-4 22 0 9-4 15-10 15S10 72 10 63c0-8-4-13-4-22 0-10 5-17 14-17z"/><circle cx="9" cy="14" r="4.6"/><circle cx="17.5" cy="8.5" r="3.7"/><circle cx="25" cy="8.5" r="3.2"/><circle cx="31" cy="12" r="2.8"/><circle cx="35.5" cy="17.5" r="2.3"/></g>
+      </symbol>
       <symbol id="whats" viewBox="0 0 24 24">
         <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.3-1.7-.1-.2 0-.4.1-.5l.4-.4.3-.4v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2 1.1.4 1.6.5.6.2 1.2.1 1.7-.1.5-.3 1-.7 1.2-1.2.1-.3.1-.7 0-1l-.1-.1z"/>
       </symbol>
@@ -156,7 +163,7 @@
   <header class="topo" id="topo">
     <div class="wrap topo__in">
       <a class="marca" href="#inicio" aria-label="Fátima Guilherme, Podóloga. Voltar ao início">
-        <svg class="marca__icone" aria-hidden="true"><use href="#pegada"/></svg>
+        <svg class="marca__icone" aria-hidden="true"><use href="#monograma"/></svg>
         <span class="marca__nome">Fátima Guilherme<small>Podóloga · BC</small></span>
       </a>
       <nav class="menu" id="menu" aria-label="Principal">
@@ -167,7 +174,7 @@
         <a href="#duvidas">Dúvidas</a>
         <a href="#contato">Contato</a>
       </nav>
-      <a class="btn btn--sm btn--azul topo__cta" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Vim pelo site e quero agendar um horário." target="_blank" rel="noopener">
+      <a class="btn btn--sm btn--marca topo__cta" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Vim pelo site e quero agendar um horário." target="_blank" rel="noopener">
         <svg aria-hidden="true"><use href="#whats"/></svg> Agendar
       </a>
       <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
@@ -184,7 +191,7 @@
           <h1 data-reveal>Seus pés em <span class="grifo">boas mãos</span>.</h1>
           <p class="hero__lead" data-reveal>Eu sou a Fátima, podóloga formada pela UNIVALI há 15 anos. Trato unha encravada, calos, micose de unha e calcanhar rachado, com laserterapia e atendimento com hora marcada.</p>
           <div class="hero__acoes" data-reveal>
-            <a class="btn btn--azul btn--lg" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Vim pelo site e quero agendar um horário." target="_blank" rel="noopener">
+            <a class="btn btn--marca btn--lg" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Vim pelo site e quero agendar um horário." target="_blank" rel="noopener">
               <svg aria-hidden="true"><use href="#whats"/></svg> Agendar pelo WhatsApp
             </a>
             <a class="btn btn--linha btn--lg" href="#onde-doi">Me mostra onde dói</a>
@@ -207,8 +214,7 @@
           </div>
           <figure class="retrato" data-parallax>
             <div class="retrato__fallback"><span>FG</span></div>
-            <!-- Troque pela foto real: salve em /assets/img/fatima.jpg (retrato vertical, ~1000x1250) -->
-            <div class="retrato__foto" style="background-image:url('/assets/img/fatima.jpg')"></div>
+            <img class="retrato__foto" src="/assets/img/fatima.jpg" width="800" height="1041" fetchpriority="high" alt="Fátima Guilherme, podóloga, de jaleco branco no consultório em Balneário Camboriú">
             <figcaption class="retrato__legenda">Fátima Guilherme<br><small>Podóloga · UNIVALI</small></figcaption>
           </figure>
           <div class="selo">
@@ -246,7 +252,7 @@
             <p class="painel__tag" id="painel-tag">Unhas</p>
             <h3 id="painel-titulo">Unha encravada</h3>
             <p id="painel-texto">Dor no canto da unha, vermelhidão e aquele incômodo que piora com sapato fechado. Retiro a parte que está machucando com técnica e delicadeza, e te ensino a cortar do jeito certo para diminuir a chance de voltar.</p>
-            <a class="btn btn--azul" id="painel-cta" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Estou com unha encravada e quero agendar uma avaliação." target="_blank" rel="noopener">
+            <a class="btn btn--marca" id="painel-cta" href="https://wa.me/5547999638736" data-msg="Oi, Fátima! Estou com unha encravada e quero agendar uma avaliação." target="_blank" rel="noopener">
               <svg aria-hidden="true"><use href="#whats"/></svg> Quero cuidar disso
             </a>
           </div>
@@ -356,11 +362,11 @@
       <div class="wrap sobre__grid">
         <div class="sobre__fotos" data-reveal>
           <figure class="polaroid polaroid--a">
-            <div class="polaroid__img" style="background-image:url('/assets/img/consultorio.jpg')"><svg aria-hidden="true"><use href="#pegada"/></svg></div>
+            <div class="polaroid__img" role="img" aria-label="Placa com o logo Fátima Guilherme Podóloga no consultório" style="background-image:url('/assets/img/consultorio.jpg')"></div>
             <figcaption>O consultório, Rua 904</figcaption>
           </figure>
           <figure class="polaroid polaroid--b">
-            <div class="polaroid__img polaroid__img--azul" style="background-image:url('/assets/img/fatima-atendendo.jpg')"><span>15</span></div>
+            <div class="polaroid__img polaroid__img--marca"><span>15</span></div>
             <figcaption>anos de podologia</figcaption>
           </figure>
         </div>
@@ -496,7 +502,7 @@
   <footer class="rodape">
     <div class="wrap rodape__in">
       <div class="rodape__marca">
-        <svg class="marca__icone" aria-hidden="true"><use href="#pegada"/></svg>
+        <svg class="marca__icone" aria-hidden="true"><use href="#monograma"/></svg>
         <div>
           <strong>Fátima Guilherme · Podóloga</strong>
           <p>Podologia no Centro de Balneário Camboriú (SC). Atendendo também quem vem de Itajaí, Camboriú e Itapema.</p>

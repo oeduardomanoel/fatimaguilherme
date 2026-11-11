@@ -7,11 +7,13 @@ Site estático (HTML + CSS + JS puro), sem build. Pronto para a Vercel.
 2. Conecte o domínio. O site usa `https://fatimaguilherme.com.br` como domínio canônico.
    Se o domínio for outro, troque em: `index.html` (canonical, og, JSON-LD), `sitemap.xml`, `robots.txt`, `llms.txt`.
 
-## Fotos (troca rápida)
-Coloque os arquivos em `assets/img/` com estes nomes. Se não existirem, o layout mostra o fallback com o monograma.
-- `fatima.jpg` — retrato vertical da Fátima (~1000×1250), usado no hero
-- `consultorio.jpg` — foto do consultório (4:5)
-- `fatima-atendendo.jpg` — foto atendendo (quadrada)
+## Identidade
+Cores do logo da Fátima: fundo branco, verde `#1F6B45` (anel e monograma FG), vermelho `#CC2A2F` (pezinho).
+
+## Fotos
+- `assets/img/fatima.jpg` — retrato do hero (recorte vertical)
+- `assets/img/consultorio.jpg` — placa com o logo, seção Sobre
+- `assets/img/fatima-podologa-balneario-camboriu.jpg` — foto quadrada usada nos dados estruturados
 
 ## SEO / GEO
 - JSON-LD: MedicalBusiness + Person + WebSite + FAQPage
