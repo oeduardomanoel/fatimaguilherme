@@ -70,7 +70,7 @@
     topo.classList.toggle('is-scrolled', y > 12);
     if (zap && hero) zap.classList.toggle('is-on', y > hero.offsetHeight * 0.6);
 
-    if (retrato && !reduz && y < window.innerHeight * 1.2) {
+    if (retrato && !reduz && window.innerWidth > 960 && y < window.innerHeight * 1.2) {
       retrato.style.setProperty('--py', `${(y * 0.08).toFixed(1)}px`);
     }
 
