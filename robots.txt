@@ -36,4 +36,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://fatimaguilherme.com.br/sitemap.xml
+Sitemap: https://fatimaguilherme.vercel.app/sitemap.xml
