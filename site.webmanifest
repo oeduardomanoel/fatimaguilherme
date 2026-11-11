@@ -1,0 +1,15 @@
+{
+  "name": "Fátima Guilherme · Podóloga",
+  "short_name": "Fátima Podóloga",
+  "description": "Podóloga no Centro de Balneário Camboriú. Agende pelo WhatsApp.",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "pt-BR",
+  "background_color": "#F4F8FB",
+  "theme_color": "#0F2742",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
